@@ -1,0 +1,5 @@
+C:\Users\jbarajas\source\repos\TournamentTracker\TournamentTracker\bin\Debug\TournamentTracker.dll
+C:\Users\jbarajas\source\repos\TournamentTracker\TournamentTracker\bin\Debug\TournamentTracker.pdb
+C:\Users\jbarajas\source\repos\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.csprojAssemblyReference.cache
+C:\Users\jbarajas\source\repos\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.dll
+C:\Users\jbarajas\source\repos\TournamentTracker\TournamentTracker\obj\Debug\TournamentTracker.pdb
