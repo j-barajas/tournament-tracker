@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.headerLabel = new System.Windows.Forms.Label();
             this.tournamentNameValue = new System.Windows.Forms.TextBox();
             this.tournamentNameLabel = new System.Windows.Forms.Label();
             this.entryFeeValue = new System.Windows.Forms.TextBox();
@@ -47,16 +47,16 @@
             this.createTournamentButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // headerLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Light", 28.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(59, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(640, 100);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Create Tournament";
+            this.headerLabel.AutoSize = true;
+            this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 28.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.headerLabel.Location = new System.Drawing.Point(59, 55);
+            this.headerLabel.Name = "headerLabel";
+            this.headerLabel.Size = new System.Drawing.Size(640, 100);
+            this.headerLabel.TabIndex = 1;
+            this.headerLabel.Text = "Create Tournament";
             // 
             // tournamentNameValue
             // 
@@ -263,7 +263,7 @@
             this.Controls.Add(this.entryFeeLabel);
             this.Controls.Add(this.tournamentNameValue);
             this.Controls.Add(this.tournamentNameLabel);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreateTournamentForm";
@@ -276,7 +276,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.TextBox tournamentNameValue;
         private System.Windows.Forms.Label tournamentNameLabel;
         private System.Windows.Forms.TextBox entryFeeValue;
