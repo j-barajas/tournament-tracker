@@ -15,7 +15,6 @@ namespace TrackerUI
         public CreatePrizeForm()
         {
             InitializeComponent();
-
         }
     }
 }
