@@ -4,3 +4,6 @@
 
 /.vs/TournamentTracker/v16/Server/sqlite3/db.lock
 /.vs/TournamentTracker/v16/Server/sqlite3/storage.ide
+/.vs/TournamentTracker/v16/Server/sqlite3
+/.vs/TournamentTracker/v16/.suo
+/.vs/TournamentTracker/v16/TrackUI/obj/Debug/*
